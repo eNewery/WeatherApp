@@ -1,0 +1,28 @@
+html, body{
+width: 100%;
+height: 100%;
+font-family: 'Open Sans', sans-serif;
+background-color: rgb(248, 248, 248);
+}
+#root{
+width: 100%;
+height: 100%;
+}
+.app-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: url(./components/images/background.jpg);
+} 
+.weatherSearchContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.weatherRegionName{
+  color: rgb(119, 111, 111);
+}

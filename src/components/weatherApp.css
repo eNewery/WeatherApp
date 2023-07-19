@@ -1,0 +1,81 @@
+.weatherContainer{
+    
+}
+.weatherCity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0 0 1em 1em #FFF;
+}
+.weatherGeneralInfo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 450px;
+}
+.weatherForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.weatherInput{
+    width: 300px;
+    border: none;
+    padding: 1em;
+    box-shadow: 0px 0px 1em 0.3em #eee;
+    text-align: center;
+}
+.weatherCityName{
+font-size: 64px;
+font-weight: 100;
+}
+.weatherCountryName{
+font-size: 16px;
+}
+.weatherMap{
+    border: 2px solid rgb(177, 177, 177);
+}
+.weatherSearch{
+    background-image: url("./images/cloud.png");
+    width: 64px;
+    height: 64px;
+}
+
+.weatherTemp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.weatherTemp img{
+z-index: 1;
+}
+.weatherTemp div{
+
+    color: black;
+    font-size: 24px;
+    z-index: 10;
+}
+.weatherTitle{
+    font-weight: 100;
+font-size: 24px;
+text-align: center;
+}
+.weatherCurrentCondition{
+    text-align: center;
+}
+.weatherContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+.weatherCurrentTitle{
+padding: 0.3em;
+color: white;
+}
